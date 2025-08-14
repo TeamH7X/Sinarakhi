@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonam Chamar Represent</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Main container -->
+    <div class="container">
+        <!-- Header with sister's name -->
+        <header class="header">
+            <h1 class="sister-name">SONAM </h1>
+            <p class="subtitle">Special Rakhi web H7 ke traf se 😁 </p>
+        </header>
+
+        <!-- Main content area -->
+        <main class="main-content">
+            <!-- Initial state - click Kr idhar noob -->
+            <div class="generate-section" id="generateSection">
+                <div class="spider-web-bg"></div>
+                <button class="generate-btn" id="generateBtn">
+                    <i class="fas fa-spider"></i>
+                    <span>SONAM CHAMAR TAP KRO</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </div>
+
+            <!-- Step 1: Rakhi display area -->
+            <div class="rakhi-container" id="rakhiContainer">
+                <div class="rakhi" id="rakhi">
+                    <img src="assets/spiderman-rakhi.jpg" alt="Spider-Man Rakhi" class="rakhi-img">
+                </div>
+                <div class="swipe-instruction" id="swipeInstruction">
+                    <i class="fas fa-hand-point-down"></i>
+                    <p>Swipe down to place on hand</p>
+                    <div class="swipe-arrow">↓</div>
+                </div>
+            </div>
+
+            <!-- Step 2: Hand area -->
+            <div class="hand-area" id="handArea">
+                <div class="hand" id="hand">
+                    <img src="assets/pointing-hand.jpg" alt="Hand" class="hand-img">
+                </div>
+            </div>
+
+            <!-- Step 3: Rakhi on hand -->
+            <div class="rakhi-on-hand-container" id="rakhiOnHandContainer">
+                <div class="rakhi-on-hand">
+                    <img src="assets/rakhi-on-hand.png" alt="Rakhi on Hand" class="rakhi-on-hand-img">
+                </div>
+                <div class="thanks-overlay">
+                    <h2>Thanks chamarni!</h2>
+                    <p class="from-text">With love from Himanshu</p>
+                </div>
+            </div>
+
+
+
+            <!-- Success message -->
+            <div class="success-message" id="successMessage">
+                <div class="message-content">
+                    <h2>🎉 Rakhi Done! 🎉</h2>
+                    <p class="thanks-message">Special Thanks from H7</p>
+                    <p class="love-message">Happy Raksha Bandhan, Dear Sonam di!</p>
+                    <button class="reset-btn" id="resetBtn">
+                        <i class="fas fa-redo"></i>
+                        Fir se bandho late se vej rahe h na isiliye 😚😉
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with ❤️ by Himanshu for his beloved sister Sonam</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
